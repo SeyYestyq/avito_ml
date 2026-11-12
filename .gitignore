@@ -1,0 +1,19 @@
+# ===== Большие данные (скачивать отдельно) =====
+competition.zip
+competition/
+sample_submission*.parquet
+
+# ===== Результаты обучения =====
+runs/
+*.cbm
+*.pt
+
+# ===== Python окружение =====
+baselines/.venv/
+baselines/__MACOSX/
+__pycache__/
+*.pyc
+
+# ===== macOS =====
+.DS_Store
+*.bak
